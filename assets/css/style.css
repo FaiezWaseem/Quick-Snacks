@@ -173,9 +173,6 @@ fieldset {
 		padding: 20px;
 		z-index: 1;
 	}
-	.fixed-top{
-		position: unset;
-	}
 	.logo{
 		width: 60px;
 		height: 50px;
