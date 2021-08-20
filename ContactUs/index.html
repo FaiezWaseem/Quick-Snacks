@@ -16,6 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/contact-us.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
 </head>
 
 <body>
@@ -30,13 +32,13 @@
 <div class="container">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link w3-bar-item w3-button" href="../">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../AboutUs/">About Us</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="#">Contact Us</a>
       </li>
       <li class="nav-item dropdown">
@@ -66,9 +68,7 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
+
 
 
 <!----------Content--------->
@@ -95,14 +95,7 @@
 </div> 
 
 
-      
-    </div>
-  </div>
- 
-</div>
-  
-
-</div>
+<div id="map"></div>
 
 
 <br>
@@ -208,7 +201,11 @@
 
 
 
-
+<script src="../assets/Js/geolocation.js"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe-oqQlm9rgYXGdXoPYiO2FkpbrcnoRkA&callback=initMap&libraries=&v=weekly"
+async
+></script>
 
 </body>
 </html>
