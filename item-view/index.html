@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Item View</title>
+<link rel="shortcut icon" href="../assets/images/logo1.png" />
+<meta charset="utf-8">
+<!-- CSS & SCRIPT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/item-view.css">
+
+</head>
+<body>
+    <!-- Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../"><img class="logo" src="../assets/images/logo1.png" alt="logo"/>
+  <img class="font" src="../assets/images/billy-argel-font.regular.png" href="../" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="container">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link w3-bar-item w3-button" href="#">About Us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../ContactUs/">Contact Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../healthysnacks/">Healthy Snacks</a>
+          <a class="dropdown-item" href="../snacks-for-kids/">Snacks for kids</a>
+          <!--<div class="dropdown-divider"></div>-->
+          <a class="dropdown-item" href="../Easy-on-stomach-snacks/">Easy on stomach snacks</a>
+          <a class="dropdown-item" href="../smoothies/">Smoothies</a>
+        </div>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li> -->
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- nav -->
+</div>
+
+<!----------Content--------->
+<!-- Bread Crumb -->
+<nav aria-label="breadcrumb" class="mt-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Smoothie</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Mango Smoothie</li>
+    </ol>
+  </nav>
+<!-- Bread Crumb -->
+
+<!-- Heading -->
+<h1 class="m-5">Chocolate Wave Zucchini Bread</h1>
+<!-- Heading Finished -->
+
+<!-- Item Details , image , recipe etc -->
+<!-- Item Details , image , recipe etc -->
+<div class="container">
+    <div class="row">
+        <!-- Image -->
+      <div class="col-md-9">
+        <img id="product-img" class="card-img-top w-100"src="../assets/images/pomegranate.jpg" alt="Card image cap">
+      </div>
+      <!-- Product Info -->
+      <div class="col-md-3 h-25">
+        <div class="card bg-light mb-3" >
+            <div class="card-header">Info</div>
+            <div class="card-body">
+              <h5 class="card-title">Cooking Info</h5>
+              <h6 class="card-text">Cooking Time :  30min</h6>
+              <h6 class="card-text">Serving : 4</h6>
+              <h5 class="card-title">Nutrition</h5>
+              <p class="card-text">Per Serving: 263 calories; protein 4g; carbohydrates 40.4g; fat 10.5g; cholesterol 31mg; sodium 226.5mg.</p>
+              <h6 class="card-text">Purchase Items :  <a href="#">here</a> </h6>
+            </div>
+          </div>
+          <div class="card bg-light mb-3">
+            <div class="card-header">Cooking Note</div>
+            <div class="card-body">
+              <h5 class="card-title">No Note!</h5>
+           
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Ingredient Heading -->
+    <div class="row m-5">
+        <h2>Ingredients</h2>
+    </div>
+    <!-- Ingredients -->
+    <div class="row">
+        <div class="col-md-9">
+            <ul class="list-group">
+                <li class="list-group-item">⅓ cup shortening</li>
+                <li class="list-group-item">1 ⅓ cups white sugar</li>
+                <li class="list-group-item">2 eggs</li>
+                <li class="list-group-item">1 ½ cups grated zucchini</li>
+                <li class="list-group-item">⅓ cup water</li>
+              </ul>
+        </div>
+    </div>
+    <hr class="m-5"></hr>
+    <!-- Reciepe / directions Heading -->
+    <div class="row">
+        <div class="col-md-9">
+            <h1 class="text-left"><i class="fas fa-utensils"></i> Directions </h1>
+        </div>
+    </div>
+    <div class="row  mt-5">
+        <div class="col-md-9">
+            <h2 class="text-left"><i class="fas fa-check-circle"></i>Step1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, qui officia itaque eligendi repellendus iste. Id tenetur esse perferendis sint amet, sit obcaecati asperiores magni iure consectetur quasi dolores iste.</p>
+        </div>
+    </div>
+    <div class="row  mt-5">
+        <div class="col-md-9">
+            <h2 class="text-left"><i class="fas fa-check-circle"></i>Step2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, qui officia itaque eligendi repellendus iste. Id tenetur esse perferendis sint amet, sit obcaecati asperiores magni iure consectetur quasi dolores iste.</p>
+        </div>
+    </div>
+</div>
+
+<!-- More Items  -->
+<div class="container mt-5 mb-5">
+    <div class="row mb-5 mt-5">
+        <div class="col">
+            <h1>More Items</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 flex">
+            <div class="card m-2" style="width: 18rem;">
+                <img class="card-img-top" src="../assets/images/mango.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img class="card-img-top" src="../assets/images/mango.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img class="card-img-top" src="../assets/images/mango.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+
+</div>
+<!-- More Items Finished -->
+<hr></hr>
+<!---------Content-------->
+
+<!-- Review & FeedBack Section -->
+<div class="container flex">
+    <div class="card" style="display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px;
+    width: 450px;
+    word-wrap: break-word;
+    background-color: #fff;">
+        <div class="row">
+            <div class="col-2"> <img src="https://source.unsplash.com/daily" width="70px" height="70px" class="rounded-circle mt-2"> </div>
+            <div class="col-10">
+                <div class="comment-box ml-2">
+                    <h4>Add a comment</h4>
+                    <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> </div>
+                    <div class="comment-area"> <textarea class="form-control" placeholder="what is your view?" rows="4"></textarea> </div>
+                    <div class="comment-btns mt-2">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="pull-left"> <button class="btn btn-success btn-sm">Cancel</button> </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="pull-right"> <button class="btn btn-success send btn-sm">Send <i class="fa fa-long-arrow-right ml-1"></i></button> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class="headings d-flex justify-content-between align-items-center mb-3">
+                <h5>Reviews / comments(6)</h5>
+                <div class="buttons"> <span class="badge bg-white d-flex flex-row align-items-center"> <span class="text-primary">Comments "ON"</span>
+                        <div class="form-check form-switch"> <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked> </div>
+                    </span> </div>
+            </div>
+            <div class="card p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://source.unsplash.com/daily" width="30" height="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">james_olesenn</small> <small class="font-weight-bold">Hmm, This poster looks cool</small></span> </div> <small>2 days ago</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"> <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://source.unsplash.com/daily" width="30" height="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">olan_sams</small> <small class="font-weight-bold">Loving your work and profile! </small></span> </div> <small>3 days ago</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"> <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i> </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://source.unsplash.com/daily" width="30" height="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">rashida_jones</small> <small class="font-weight-bold">Really cool Which filter are you using? </small></span> </div> <small>3 days ago</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i> </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://source.unsplash.com/daily" width="30" height="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">simona_rnasi</small> <small class="font-weight-bold text-primary">@macky_lones</small> <small class="font-weight-bold text-primary">@rashida_jones</small> <small class="font-weight-bold">Thanks </small></span> </div> <small>3 days ago</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Review & FeedBack Section end  -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <section class="p-1">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            </i>Quick Snacks
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Categories
+          </h6>
+          <p>
+            <a href="../healthysnacks/" class="text-reset">Healthy Snacks</a>
+          </p>
+          <p>
+            <a href="../snacks-for-kids/" class="text-reset">Snacks for Kids</a>
+          </p>
+          <p>
+            <a href="../Easy-on-stomach-snacks/" class="text-reset">Easy on Stomach</a>
+          </p>
+          <p>
+            <a href="../smoothies/" class="text-reset">Smoothie</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset"><i class="fab fa-facebook-f"></i>Facebook</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fab fa-twitter"></i>Twitter</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fab fa-instagram"></i>Instagram</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fab fa-youtube"></i>Youtube</a>
+          </p>
+        </div>
+ 
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://github.com/FaiezWaseem">Faiez Waseem</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
