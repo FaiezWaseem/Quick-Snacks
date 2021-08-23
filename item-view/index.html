@@ -75,7 +75,7 @@
 <!-- Bread Crumb -->
 
 <!-- Heading -->
-<h1 class="m-5">Chocolate Wave Zucchini Bread</h1>
+<h1 class="m-5" id="product-title">Chocolate Wave Zucchini Bread</h1>
 <!-- Heading Finished -->
 
 <!-- Item Details , image , recipe etc -->
@@ -92,17 +92,17 @@
             <div class="card-header">Info</div>
             <div class="card-body">
               <h5 class="card-title">Cooking Info</h5>
-              <h6 class="card-text">Cooking Time :  30min</h6>
-              <h6 class="card-text">Serving : 4</h6>
+              <h6 class="card-text" id="cooking-time">Cooking Time :  30min</h6>
+              <h6 class="card-text" id="serving">Serving : 4</h6>
               <h5 class="card-title">Nutrition</h5>
-              <p class="card-text">Per Serving: 263 calories; protein 4g; carbohydrates 40.4g; fat 10.5g; cholesterol 31mg; sodium 226.5mg.</p>
-              <h6 class="card-text">Purchase Items :  <a href="#">here</a> </h6>
+              <p class="card-text" id="nutrition">Per Serving: 263 calories; protein 4g; carbohydrates 40.4g; fat 10.5g; cholesterol 31mg; sodium 226.5mg.</p>
+              <h6 class="card-text">Purchase Items :  <a href="#" id="purchase">here</a> </h6>
             </div>
           </div>
           <div class="card bg-light mb-3">
             <div class="card-header">Cooking Note</div>
             <div class="card-body">
-              <h5 class="card-title">No Note!</h5>
+              <h5 class="card-title" id="note">No Note!</h5>
            
             </div>
           </div>
@@ -115,12 +115,8 @@
     <!-- Ingredients -->
     <div class="row">
         <div class="col-md-9">
-            <ul class="list-group">
-                <li class="list-group-item">⅓ cup shortening</li>
-                <li class="list-group-item">1 ⅓ cups white sugar</li>
-                <li class="list-group-item">2 eggs</li>
-                <li class="list-group-item">1 ½ cups grated zucchini</li>
-                <li class="list-group-item">⅓ cup water</li>
+            <ul class="list-group" id="ingredient">
+            
               </ul>
         </div>
     </div>
@@ -131,18 +127,8 @@
             <h1 class="text-left"><i class="fas fa-utensils"></i> Directions </h1>
         </div>
     </div>
-    <div class="row  mt-5">
-        <div class="col-md-9">
-            <h2 class="text-left"><i class="fas fa-check-circle"></i>Step1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, qui officia itaque eligendi repellendus iste. Id tenetur esse perferendis sint amet, sit obcaecati asperiores magni iure consectetur quasi dolores iste.</p>
-        </div>
-    </div>
-    <div class="row  mt-5">
-        <div class="col-md-9">
-            <h2 class="text-left"><i class="fas fa-check-circle"></i>Step2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, qui officia itaque eligendi repellendus iste. Id tenetur esse perferendis sint amet, sit obcaecati asperiores magni iure consectetur quasi dolores iste.</p>
-        </div>
-    </div>
+    <div id="steps">
+  </div>
 </div>
 
 <!-- More Items  -->
@@ -349,5 +335,7 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+
+<script type="module" src="../assets/Js/main.js"></script>
 </body>
 </html>
