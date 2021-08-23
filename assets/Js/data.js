@@ -109,7 +109,7 @@ const healthy_snacks ={
             
        },
     Almond_Butter:{
-        link : "/images/almond.jpg",
+        link : "../assets/images/almond.jpg",
         preperation_Time : "10min",
         serving : 16,
         nutrion : "Per Serving: 57 calories; protein 1.9g; carbohydrates 1.8g; fat 5.1g; sodium 0.1mg.",
