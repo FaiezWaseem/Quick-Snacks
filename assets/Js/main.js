@@ -15,9 +15,11 @@ function getParam ()
 }
 try{
     var uri = getParam()
+    get('#page').innerText = uri.type
     const recipe = new data.DataExtract(uri.type , uri.product);
    var item;
    if(recipe.snack_for_kids()){
+       item = recipe.snack_for_kids()
     //setting the title
     setTitle(uri.product)
     //setting up the image 
@@ -81,10 +83,13 @@ try{
 function setTitle($){
 const title = get('#product-title')
 title.innerText = $
+get('.product').innerText = $
+get('#product').innerText = $
 }
 function setImg($){
 const img = get('#product-img')
 img.src = $
+get('#tab-icon').href = $
 }
 function setInfo(nutrition , serving , prep  , link){
 const prep_time = get('#cooking-time');
