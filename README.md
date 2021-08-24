@@ -4,4 +4,3 @@
 ### your hunger and keep you from overeating at meal time. A website “QuickSnacks” which will include quick snacks recipes.
 
 ## [See Demo here](https://faiezwaseem.github.io/Quick-Snacks/)
-# Still in  development!

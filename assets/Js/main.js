@@ -78,7 +78,8 @@ try{
    
     
 }catch($){
-   console.warn($)
+   console.error($)
+   alert(" Error Could'nt Find the Item You are Looking For  \n Error Message For Developer : "+$)
 }
 function setTitle($){
 const title = get('#product-title')

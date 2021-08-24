@@ -5,9 +5,3 @@
     console.log($)
     window.location.href = `../item-view/?page=${page}&type=${type}&product=${product}`
  }
-var cards = document.querySelectorAll('.card')
-
-// cards.onclick = (card) =>{
-//     console.log(card)
-//     click(this)
-// }

@@ -60,8 +60,6 @@ import  {snack_for_kids , healthy_snacks , easy_on_stomach , smoothie} from './d
       }
       //---------------------healthy_snacks--------------------
 
-
-
     // -----------------easy_on_stomach --------------------
     easy_on_stomach(){
      
@@ -86,7 +84,6 @@ import  {snack_for_kids , healthy_snacks , easy_on_stomach , smoothie} from './d
         }
       }
       //---------------------easy_on_stomach--------------------
-
 
     // -----------------smoothie --------------------
     smoothie(){

@@ -159,6 +159,9 @@ html {
      .reply{
          margin-left: 0px;
      }
+     #product-title{
+         font-size: 1.4rem;
+     }
  } 
   @include media-breakpoint-up(sm) {
     html {
